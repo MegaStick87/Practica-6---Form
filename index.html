@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Esta línea declara que el documento es HTML5, que es la versión estándar actual de HTML. -->
+
+<html>
+<!-- La etiqueta <html> abre el documento HTML y engloba todo el contenido de la página. -->
+
+<head>
+    <title>Formulario - Glass</title>
+    <!-- La etiqueta <title> define el título de la página, que aparece en la pestaña del navegador. -->
+
+    <meta charset="UTF-8">
+    <!-- Esta etiqueta <meta> establece la codificación de caracteres para el documento, en este caso UTF-8, que incluye la mayoría de los caracteres de todos los idiomas. -->
+
+    <link rel="stylesheet" href="/style.css"/>
+    <!-- La etiqueta <link> se utiliza para enlazar una hoja de estilos CSS externa, que definirá cómo se ven los elementos de la página. -->
+</head>
+
+<body>
+    <!-- La etiqueta <body> contiene todo el contenido visible de la página web. -->
+
+    <video autoplay loop muted id="font_vid">
+        <!-- La etiqueta <video> se utiliza para incrustar contenido de video en la página. -->
+        <!-- 'autoplay' inicia automáticamente el video, 'loop' lo repite indefinidamente y 'muted' lo silencia. -->
+        <source src="vid/test.mp4" type="video/mp4" />
+        <!-- La etiqueta <source> especifica la fuente del video y su formato. -->
+    </video>
+<!-- Cierre de la etiqueta vídeo -->
+    <div class="Form">
+        <!-- Un <div> que agrupa los elementos del formulario. La clase 'Form' se utiliza para aplicar estilos específicos. -->
+        
+        <img src="/img/1.png" alt="Imagen no encontrada" />
+        <!-- La etiqueta <img> inserta una imagen en la página. 'src' es la ruta de la imagen y 'alt' proporciona texto alternativo. -->
+
+        <h1>Registro del Usuario</h1>
+        <!-- Un encabezado h1 que proporciona un título al formulario. -->
+
+        <input type="text" placeholder="Nombre de Usuario" required />
+        <!-- Un campo de entrada para el nombre de usuario. 'placeholder' muestra un texto de ejemplo y 'required' indica que el campo es obligatorio. -->
+
+        <input type="password" placeholder="Contraseña" required />
+        <!-- Un campo de entrada para la contraseña, que oculta el texto ingresado. -->
+
+        <input type="email" placeholder="Correo Electrónico" required />
+        <!-- Un campo de entrada para el correo electrónico. Valida automáticamente el formato del correo. -->
+
+        <button type="submit" class="Form-button">Registrarse</button>
+        <!-- Un botón para enviar el formulario. La clase 'Form-button' se utiliza para aplicar estilos específicos. -->
+    </div>
+   <!-- Cierre de la etiqueta div que agrupa los elementos del formulario. -->
+</body>
+<!-- Esta etiqueta cierra el <body>, que es donde termina el contenido visible de la página. -->
+
+</html>
+<!-- Esta etiqueta cierra el documento HTML. -->

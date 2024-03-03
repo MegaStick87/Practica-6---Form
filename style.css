@@ -1,0 +1,79 @@
+body {
+    background: #e0e0e0; /* Color de fondo gris claro. */
+    display: flex; /* Habilita Flexbox para este elemento. */
+    justify-content: center; /* Alinea los elementos hijos horizontalmente al centro. */
+    align-items: center; /* Alinea los elementos hijos verticalmente al centro. */
+    height: 100vh; /* Altura del body al 100% de la altura de la ventana del navegador. */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Establece la familia de fuentes. */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde del elemento. */
+    font-size: 20px; /* Tamaño de fuente predeterminado. */
+}
+
+#font_vid {
+    position: fixed; /* Posiciona el video de manera fija en la página. */
+    right: 0; /* Alinea el video a la derecha. */
+    bottom: 0; /* Alinea el video en la parte inferior. */
+    min-width: 100%; /* Ancho mínimo del video: 100% del ancho de la ventana. */
+    min-height: 100%; /* Altura mínima del video: 100% de la altura de la ventana. */
+    z-index: -1; /* Coloca el video detrás de otros elementos. */
+    align-items: center; /* Centra verticalmente el contenido del video. */
+}
+
+.Form img {
+    /*display: block;*/ /* Comentado: haría que la imagen se muestre como un bloque. */
+    width: 15%; /* Ancho de la imagen: 15% del contenedor. */
+    margin-bottom: 10px; /* Margen inferior de 10px. */
+    margin-left: auto; /* Centra horizontalmente la imagen. */
+    margin-right: auto; /* Centra horizontalmente la imagen. */
+    margin-top: 1px; /* Margen superior de 1px. */
+}
+
+.Form img {
+    /*display: block;*/ /* Comentado: haría que la imagen se muestre como un bloque. */
+    width: 15%; /* Ancho de la imagen: 15% del contenedor. */
+    margin-bottom: 10px; /* Margen inferior de 10px. */
+    margin-left: auto; /* Centra horizontalmente la imagen. */
+    margin-right: auto; /* Centra horizontalmente la imagen. */
+    margin-top: 1px; /* Margen superior de 1px. */
+}
+
+.Form {
+    background: rgba(255,255,255,0.4); /* Fondo blanco con opacidad. */
+    backdrop-filter: blur(10px); /* Aplica un efecto de desenfoque al fondo detrás del formulario. */
+    border-radius: 10px; /* Bordes redondeados del formulario. */
+    border: 1px solid rgba(255,255,255, 0.25); /* Borde del formulario con opacidad. */
+    border-color: #000; /* Color del borde: negro. */
+    border-style: solid; /* Estilo del borde: sólido. */
+    padding: 20px; /* Espaciado interno del formulario. */
+    width: 800px; /* Ancho del formulario. */
+}
+
+.Form h1 {
+    color: #fff; /* Color del texto: blanco. */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Establece la familia de fuentes. */
+    position: relative; /* Posicionamiento relativo. */
+    text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; /* Sombra de texto para mejorar la legibilidad. */
+}
+
+.Form button {
+    display: block; /* Hace que el botón se muestre como un bloque. */
+    width: 100%; /* Ancho del botón: 100% del contenedor. */
+    margin: 10px 0; /* Margen superior e inferior de 10px. */
+    padding: 10px; /* Espaciado interno del botón. */
+    border-radius: 5px; /* Bordes redondeados del botón. */
+    background-color: #4CAF50; /* Color de fondo del botón: verde. */
+    color: white; /* Color del texto del botón: blanco. */
+    border: none; /* Sin borde. */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón. */
+    transition: background-color 0.3s; /* Transición suave del color de fondo. */
+}
+
+.Form input[type="text"],
+.Form input[type="password"],
+.Form input[type="email"] {
+    display: block; /* Muestra los campos de entrada como bloques. */
+    width: 97%; /* Ancho de los campos: 97% del contenedor. */
+    margin: 10px 0; /* Margen superior e inferior de 10px. */
+    padding: 10px; /* Espaciado interno de los campos. */
+    border-radius: 5px; /* Bordes redondeados de los campos. */
+}
